@@ -40,7 +40,3 @@ _Observações:_
 Nos projetos, são propostas tarefas difíceis, porém não obrigatórias. Todavia, é recomendável que dedique seu tempo e use suas habilidades para resolvê-las. O desafio deste projeto é:
 
 - Se o usuário colocou o CEP sem "-", adicionar o "-".
-
-Critérios de avaliação
-
-Antes de enviar seu trabalho para revisão, repasse os critérios. Você conseguiu finalizar cada item da lista? Então, envie o projeto para avaliação.
