@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: monospace;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: gray;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+form {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+input {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid gray;
+  border-radius: 4px;
+  color: gray;
+}
+
+.submit {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+#enderecoFormatado {
+  width: 500px;
+  padding: 2rem;
+  margin-top: 1rem;
+}

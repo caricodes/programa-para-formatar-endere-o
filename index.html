@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Formulário | Módulo 4</title>
+  </head>
+  <body>
+    <form onsubmit="return enderecoFormatado()">
+      <h1>Formatar Endereço</h1>
+      <input
+        type="text"
+        id="tipoDeLogradouro"
+        placeholder="Tipo de logradouro (Rua ou Avenida)" />
+      <input
+        type="text"
+        id="nomeDoLogradouro"
+        placeholder="Nome do logradouro" />
+      <input
+        type="number"
+        id="numDaResidencia"
+        placeholder="Número da Residência" />
+      <input type="text" id="complemento" placeholder="Complemento" />
+      <input type="text" id="bairro" placeholder="Bairro" />
+      <input type="text" id="cidade" placeholder="Cidade" />
+      <input type="text" id="estado" placeholder="Estado" />
+      <input type="number" id="cep" maxlength="9" placeholder="CEP" />
+
+      <input type="submit" class="submit" value="Formatar endereço" />
+    </form>
+    <div id="enderecoFormatado"></div>
+  </body>
+</html>
